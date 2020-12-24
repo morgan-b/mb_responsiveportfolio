@@ -1,34 +1,69 @@
-body {
-    /* Typography */
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  
-    /* Visual */
-    background-color: #fdf8f5 ;
+  /* STYLES FOR ALL PAGES */
+
+  /* Style the body for all html documents for the font and background color */
+  body {
+      /* Typography */
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      /* Visual */
+      background-color: #ebcfc4;
   }
 
-html {
-    /* Positioning */
-    position: relative;
-  
-    /* Box-model */
-    min-height: 100%;
+  /* Sets the position of the html to be relative so the footer can be sticky based on this */
+  html {
+      /* Positioning */
+      position: relative;
+      /* Box-model */
+      min-height: 100%;
   }
 
-.block {
-    margin:2%;
-}
-nav {
-    background-color:#ebcfc4;
-}
-.footer {
-    /* Positioning */
-    position: absolute;
-    bottom: 0;
-  
-    /* Box-model */
-    width: 100%;
-    height: 60px;
-  
-    /* Visual */
-    background-color: #ebcfc4;
+  /* Styles the navigation bar on all html documents for background color, margin, and full screen width */
+  nav {
+      background-color: #fdf8f5;
+      margin: 0;
+      width: 100%;
+  }
+
+  /* Styles all buttons for margin */
+  button {
+      margin-left: 15px;
+      margin-bottom: 10px;
+  }
+
+  /* Styles all white blocks of content for margin and background color */
+  .block {
+      margin: 20px;
+      background-color: white;
+  }
+
+  /* Styles the header for all blocks of content*/
+  .card-header {
+      background-color: #fdf8f5;
+  }
+
+  /* Styles the footer for all pages for background color, absolute position to make it sticky to the bottom, and full screen width*/
+  .footer {
+      background-color: #fdf8f5;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+  }
+
+  /* END STYLES FOR ALL PAGES*/
+
+  /* Styles the image for index.html */
+  .card-img {
+      margin: 5px auto;
+  }
+
+  /* Styles the portfolio images for portfolio.html */
+  .portfimg {
+      margin: 3% auto;
+      display: block;
+      padding: 10px;
+  }
+
+  /* Styles the content in the form group on the Contact Us page for contact.html */
+  .form-group {
+      margin: 3% auto;
   }
