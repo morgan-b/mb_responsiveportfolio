@@ -67,3 +67,7 @@
   .form-group {
       margin: 3% auto;
   }
+
+  /* Styles the footer across pages to have centered text */
+  .footer
+  { text-align: center;}
