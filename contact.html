@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!-- Start of head that contains meta tags and links stylesheets -->
+
 <head>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Morgan Bailey Contact Us</title>
+    <!-- Descriptive title -->
+    <title>Morgan Bailey About Me</title>
 
-  <!-- Boostrap Stylesheet -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- CSS stylesheet -->
-  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="./style.css" media="screen">
 
 </head>
+<!-- End of head that contains meta tags and links stylesheets -->
+
+<!-- Start of body -->
 
 <body>
 
-    <div class="container-fluid">
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Navivation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+
+            <!--Navivation bar title -->
             <a class="navbar-brand" href="index.html">Morgan Bailey</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -30,25 +39,82 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
+                <!--Navivation bar items and links -->
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="index.html">About</a>
+                    <a class="nav-item nav-link" href="index.html">About</a>
                     <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    <a class="nav-item nav-link active" href="contact.html">Contact</a>
                 </div>
 
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
+    <!-- End of Navivation bar -->
+
+    <!-- Start of container with Contact form -->
+    <main class="container mb-3">
+
+        <section class="row">
+
+            <div class="col-md-12">
+                <form class="block">
+
+                    <!-- Header of Contact form -->
+                    <div class="card-header">Contact</div>
+
+                    <!-- Name field of Contact form -->
+                    <div class="form-group">
+                        <label for="name" class="col-sm-2 control-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+                    </div>
+
+                    <!-- Email field of Contact form -->
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <!-- Message field of Contact form -->
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" for="msg">Message</label>
+                        <div class="col-sm-10">
+                            <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Submit button of Contact form -->
+                    <button type="submit" class="btn btn-outline-secondary">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- End of container with Contact content-->
+
+    <!-- Start of footer -->
+    <footer class="footer mt-4">
+
+        <div class="container">
+
+            <span class="text-muted text-muted-footer text-center">&copy; Copyright</span>
+
+        </div>
+    </footer>
+    <!-- End of footer -->
 
 
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
 
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-  <!-- jQuery CDN -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <!-- Bootstrap CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
-
+<!-- End of body -->
 
 </html>

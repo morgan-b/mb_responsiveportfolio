@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!-- Start of head that contains meta tags and links stylesheets -->
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- Descriptive title -->
     <title>Morgan Bailey About Me</title>
 
     <!-- Boostrap Stylesheet -->
@@ -17,12 +18,16 @@
     <link rel="stylesheet" href="./style.css" media="screen">
 
 </head>
+<!-- End of head that contains meta tags and links stylesheets -->
 
+<!-- Start of body -->
 <body>
 
-    <div class="container-fluid">
- 
-        <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- Navivation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+
+            <!--Navivation bar title -->
             <a class="navbar-brand" href="index.html">Morgan Bailey</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -32,6 +37,8 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
+                <!--Navivation bar items and links -->
+
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="index.html">About</a>
                     <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
@@ -39,17 +46,22 @@
                 </div>
 
             </div>
-        </nav>
-    </div>
 
+        </div>
+    </nav>
+    <!-- End of Navivation bar -->
+
+    <!-- Start of main content -->
     <main class="container">
 
         <section class="block">
 
-            <div class="card mb-3">
+            <!-- Start of card that contains About Me section -->
+            <div class="card mb-5">
 
                 <div class="row no-gutters">
 
+                    <!-- Header for About Me section -->
                     <div class="col-md-12">
                         <div class="card-header">About Me</div>
                     </div>
@@ -57,53 +69,62 @@
 
                 <div class="row no-gutters">
 
+                    <!-- Image for About Me section -->
                     <div class="col-md-4">
-                        <img src="./assets/aboutmepic.jpg" class="card-img" alt="...">
+                        <img src="./assets/aboutmepic.jpg" class="card-img"
+                            alt="black and white image of woman looking slightly away from camera">
                     </div>
 
+                    <!-- Text for About Me section -->
                     <div class="col-md-8">
                         <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural
-                                lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <br />
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                                do
-                                eiusmod tempor
-                                incididunt ut labore et
-                                dolore
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                nisi ut aliquip ex ea
-                                commodo
-                                consequat.
+                            <p class="card-text">Morgan Bailey works in a unique, cross-functional role at the
+                                intersection of QuickFrame’s Customer and Product teams. She ensures that the company is
+                                delivering on client goals and helping them achieve their KPIs. Previously, Morgan
+                                managed paid media at Glossier and led performance marketing initiatives at Uncommon
+                                Goods, where she launched the company’s paid social program. She also spent time in
+                                performance marketing at The Advertising Specialty Institute.
+                                .</p>
+
+                            <p class="card-text">
+                                Morgan holds a Bachelor of Science Degree in Human Physiology, and she developed her
+                                love for data and testing through her previous experience in cancer research. Her life
+                                goal is to open a senior citizen dog home and is proud to have the home’s first two
+                                patrons.
+
                             </p>
                         </div>
                     </div>
                 </div>
+
+                <!-- End of card that contains About Me section -->
             </div>
+
         </section>
+
     </main>
+    <!-- End of main content -->
 
     <!-- Start of footer -->
-    <footer class="footer">
+    <footer class="footer mt-4">
 
-        <div class="two-toned-footer-color"></div>
+        <div class="container">
 
-        <p class="text-muted text-muted-footer text-center">
+            <!-- text in the footer -->
+            <span class="text-muted text-muted-footer text-center">&copy; Copyright</span>
 
-            &copy; Copyright
-
-        </p>
-
+        </div>
     </footer>
     <!-- End of footer -->
 
     <!-- jQuery CDN -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
     <!-- Bootstrap CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
+<!-- End of body -->
 
 </html>

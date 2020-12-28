@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!-- Start of head that contains meta tags and links stylesheets -->
+
 <head>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Morgan Bailey Portfolio</title>
+    <!-- Descriptive title -->
+    <title>Morgan Bailey About Me</title>
 
-  <!-- Boostrap Stylesheet -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <!-- CSS stylesheet -->
-  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="./style.css" media="screen">
 
 </head>
+<!-- End of head that contains meta tags and links stylesheets -->
+
+<!-- Start of body -->
 
 <body>
 
-    <div class="container-fluid">
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Start of Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+
+            <!--Navivation bar title -->
             <a class="navbar-brand" href="index.html">Morgan Bailey</a>
 
+            <!--Navivation button type -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,22 +40,109 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
+                <!--Navivation bar items and links -->
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="index.html">About</a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="index.html">About</a>
+                    <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
                     <a class="nav-item nav-link" href="contact.html">Contact</a>
                 </div>
 
             </div>
-        </nav>
+
+        </div>
+    </nav>
+    <!-- End Navivation bar -->
+
+
+    <!-- Start of Container for Portfolio images -->
+    <div class="container mb-3">
+        <main class="row">
+            <div class="col-md-12">
+                <article class="block">
+
+                    <!--  Header for Portfolio  -->
+                    <div class="card-header">Portfolio</div>
+
+                    <!-- Row with two images -->
+                    <div class="row">
+
+                        <!-- first image in row -->
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img-fluid portfimg" src="./assets/tuna.jpg"
+                                alt="a small white dog wears a hat and multicolored necklace">
+                        </div>
+
+                        <!-- second image in row -->
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img-fluid portfimg" src="./assets/winnie.JPG"
+                                alt="a small white dog looks to her right and squints her eyes">
+                        </div>
+                    </div>
+                    <!-- end row -->
+
+
+                    <!-- Row with two images -->
+                    <div class="row">
+
+                        <!-- first image in row -->
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img-fluid portfimg" src="./assets/winnie_hug.jpg"
+                                alt="a small white dog hugs a toy">
+                        </div>
+
+                        <!-- second image in row -->
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img-fluid portfimg" src="./assets/tuna_2.jpg"
+                                alt="a small white dog stands on a wooden floor looking at the camera">
+                        </div>
+                    </div>
+                    <!-- end row -->
+
+                    <!-- Row with two images -->
+                    <div class="row">
+
+                        <!-- first image in row -->
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img-fluid portfimg" src="./assets/winnie_smile.jpg"
+                                alt="a small white dog lays outside in a field wearing a pink harness">
+                        </div>
+
+                        <!-- second image in row -->
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img-fluid portfimg" src="./assets/tuna_winnie.jpeg"
+                                alt="two small white dogs lay on a bed next to each other">
+                        </div>
+                    </div>
+                    <!-- end row -->
+
+                </article>
+            </div>
+        </main>
     </div>
+    <!-- End of Container for Portfolio images -->
 
- <!-- jQuery CDN -->
- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Start of footer -->
+    <footer class="footer mt-4">
 
- <!-- Bootstrap CDN -->
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <div class="container">
+
+            <span class="text-muted text-muted-footer text-center">&copy; Copyright</span>
+
+        </div>
+    </footer>
+
+
+    <!-- End of footer -->
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
+<!-- End of body -->
 
 </html>
