@@ -1,14 +1,34 @@
   /* STYLES FOR ALL PAGES */
 
   /* Style the body for all html documents for the font and background color */
+
   body {
       /* Typography */
       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
       /* Visual */
-      background-color: #ebcfc4;
+      
+  }
+  .backgroundimg {
+    background-image: url("./assets/pinkorangeback.png");
+    /* Full height */
+    height: 30vh;
+    color: white;
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .aboutmeEL {
+    background-image: url("./assets/aboutmeimage.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
   }
 
   /* Sets the position of the html to be relative so the footer can be sticky based on this */
+
   html {
       /* Positioning */
       position: relative;
@@ -17,30 +37,40 @@
   }
 
   /* Styles the navigation bar on all html documents for background color, margin, and full screen width */
+
   nav {
-      background-color: #fdf8f5;
-      margin: 0;
+      background-color: transparent;
       width: 100%;
   }
 
+  .nav-item  {
+      color: white;
+  }
+  .titlepagename {
+      font-size: 72px;
+  }
+
   /* Styles all buttons for margin */
+
   button {
       margin-left: 15px;
       margin-bottom: 10px;
   }
 
   /* Styles all white blocks of content for margin and background color */
+
   .block {
       margin: 20px;
-      background-color: white;
   }
 
   /* Styles the header for all blocks of content*/
+
   .card-header {
       background-color: #fdf8f5;
   }
 
   /* Styles the footer for all pages for background color, absolute position to make it sticky to the bottom, and full screen width*/
+
   .footer {
       background-color: #fdf8f5;
       position: absolute;
@@ -52,11 +82,13 @@
   /* END STYLES FOR ALL PAGES*/
 
   /* Styles the image for index.html */
+
   .card-img {
       margin: 5px auto;
   }
 
   /* Styles the portfolio images for portfolio.html */
+
   .portfimg {
       margin: 3% auto;
       display: block;
@@ -64,10 +96,13 @@
   }
 
   /* Styles the content in the form group on the Contact Us page for contact.html */
+
   .form-group {
       margin: 3% auto;
   }
 
   /* Styles the footer across pages to have centered text */
-  .footer
-  { text-align: center;}
+
+  .footer {
+      text-align: center;
+  }
