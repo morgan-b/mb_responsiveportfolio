@@ -1,40 +1,34 @@
   /* STYLES FOR ALL PAGES */
 
-  /* Style the body for all html documents for the font and background color */
-
-  body {
-      /* Typography */
-      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-      /* Visual */
-      
-  }
-  .backgroundimg {
-    background-image: url("./assets/pinkorangeback.png");
-    /* Full height */
-    height: 30vh;
-    color: white;
-    /* Center and scale the image nicely */
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .aboutmeEL {
-    background-image: url("./assets/aboutmeimage.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-  }
-
-  /* Sets the position of the html to be relative so the footer can be sticky based on this */
+  
+   /* Sets the position of the html to be relative so the footer can be sticky based on this */
 
   html {
-      /* Positioning */
-      position: relative;
-      /* Box-model */
-      min-height: 100%;
+      font-family: sans-serif;
+         /* Positioning */
+         position: relative;
+         /* Box-model */
+         min-height: 100%;
   }
+
+  .bioPic {
+      background-image: url("./assets/square_bio_pic.png");
+      height: 80vh;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .mecard {
+      padding-left: 3%;
+      margin-top: 6%;
+  }
+
+  .homeButton {
+      margin-top:3%
+  }
+ 
+
 
   /* Styles the navigation bar on all html documents for background color, margin, and full screen width */
 
@@ -43,11 +37,12 @@
       width: 100%;
   }
 
-  .nav-item  {
+  .nav-item {
       color: white;
   }
+
   .titlepagename {
-      font-size: 72px;
+      font-size: 48px;
   }
 
   /* Styles all buttons for margin */
@@ -105,4 +100,9 @@
 
   .footer {
       text-align: center;
+  }
+
+  .myInfo {
+      margin-top: 25%;
+      margin-right: 10%;
   }
