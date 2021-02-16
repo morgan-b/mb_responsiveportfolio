@@ -18,6 +18,13 @@
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="./style.css" media="screen">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link>
+
 </head>
 <!-- End of head that contains meta tags and links stylesheets -->
 
@@ -32,7 +39,8 @@
 
                 <!--Navivation bar title -->
 
-
+                <!--Navivation bar title -->
+                 <!--<a class="navbar-brand" href="index.html">Morgan Bailey</a>-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -46,6 +54,12 @@
                         <a class="nav-item nav-link active" href="index.html">About</a>
                         <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
                         <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        <a class="nav-item nav-link" href="https://www.linkedin.com/in/morganabailey/" target="_blank">
+                            <i class="fab fa-linkedin-in" ></i>
+                        </a>
+                        <a class="nav-item nav-link"  href="https://github.com/morgan-b" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
                     </div>
 
                 </div>
@@ -62,23 +76,28 @@
         <div class="row">
 
 
-            <div class="col-12 col-sm-12 col-md-6 mecard">
+            <div class="col-12 col-md-6 mecard">
                 <div class="row">
                     <div class="col hello">
-                        <h1>Hi, my name is Morgan Bailey</h1>
-                        <h2>I'm a Product Manager with a performance marketing background specializing in tech startups. </h2>
-                        <button onclick="location.href = 'portfolio.html';" type="button" class="btn btn-outline-secondary portfolioButton homeButton">See My Work</button>
-                        <button onclick="location.href = 'contact.html';"type="button" class="btn btn-outline-secondary contactButton homeButton">Contact Me</button>
-                       
+                        <h1 id="homeHeader">MORGAN BAILEY</h1>
+
+                        <h3 id="homeSubHeader">product manager, performance marketer &</h3>
+                        <h3 id="homeSubHeader">web developer</h3>
+                        <!--  <button onclick="location.href = 'portfolio.html';" type="button"
+                            class="btn btn-outline-secondary portfolioButton homeButton">See My Work</button>
+                        <button onclick="location.href = 'contact.html';" type="button"
+                            class="btn btn-outline-secondary contactButton homeButton">Contact Me</button> -->
+
                     </div>
                 </div>
 
             </div>
-            <div class="col-12  col-sm-12 col-md-6 bioPic">
-     
+            <div class="container-fluid col-12 col-md-6 bioPic">
+
             </div>
         </div>
     </div>
+
 
 
     <!-- End of card that contains About Me section -->
@@ -91,7 +110,7 @@
     <!-- End of main content -->
 
     <!-- Start of footer -->
-    <footer class="footer mt-4">
+    <footer class="footer  mt-4">
 
         <div class="container">
 
@@ -108,7 +127,8 @@
         crossorigin="anonymous"></script>
     <!-- Bootstrap CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script scr="script.js"></script>
+    <script scr="script.js"></script>
+
 </body>
 <!-- End of body -->
 

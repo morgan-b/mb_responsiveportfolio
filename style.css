@@ -1,22 +1,55 @@
   /* STYLES FOR ALL PAGES */
 
-  
-   /* Sets the position of the html to be relative so the footer can be sticky based on this */
+  /* Sets the position of the html to be relative so the footer can be sticky based on this */
 
   html {
-      font-family: sans-serif;
-         /* Positioning */
-         position: relative;
-         /* Box-model */
-         min-height: 100%;
+    
+      /* Positioning */
+      position: relative;
+      /* Box-model */
+      min-height: 100%;
+      
+      font-family: 'Varela', sans-serif;
+      color: #4F5964;
+     
+    }
+
+
+  body {
+    font-family: 'Varela', sans-serif;
+    color: #4F5964;
+    background-color: #e9d8c6
   }
 
+/*.homepageBody{
+    background-image: url("./assets/homepage_drip.png");
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }*/
+  #homeHeader {
+ 
+   font-size: 58px;
+
+   
+}
+  #homeSubHeader {
+ 
+      font-size: 24px;
+     
+  }
+
+  .hello {
+      margin-left: 4%;
+  }
   .bioPic {
-      background-image: url("./assets/square_bio_pic.png");
+      background-image: url("./assets/bio_pic.png");
       height: 80vh;
+   
       background-position: center center;
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size:cover;
   }
 
   .mecard {
@@ -25,25 +58,22 @@
   }
 
   .homeButton {
-      margin-top:3%
+      margin-top: 3%
   }
- 
-
 
   /* Styles the navigation bar on all html documents for background color, margin, and full screen width */
 
   nav {
       background-color: transparent;
       width: 100%;
-  }
+      font-family: 'Varela', sans-serif;
+      color: #4F5964;
+  
+    }
+  
 
-  .nav-item {
-      color: white;
-  }
 
-  .titlepagename {
-      font-size: 48px;
-  }
+ 
 
   /* Styles all buttons for margin */
 
@@ -78,8 +108,13 @@
 
   /* Styles the image for index.html */
 
-  .card-img {
-      margin: 5px auto;
+  .cardImg {
+      height:100%;
+      width:100%;
+      
+
+
+    
   }
 
   /* Styles the portfolio images for portfolio.html */
@@ -105,4 +140,13 @@
   .myInfo {
       margin-top: 25%;
       margin-right: 10%;
+  }
+
+  .icons {
+      margin-left: 2%;
+   
+  }
+
+  .fa-github {
+    margin-left: 1%;
   }

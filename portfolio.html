@@ -18,19 +18,26 @@
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="./style.css" media="screen">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link>
+
 </head>
 <!-- End of head that contains meta tags and links stylesheets -->
 
 <!-- Start of body -->
 
-<body>
+<body class="portfolioBody">
 
     <!-- Start of Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
 
             <!--Navivation bar title -->
-            <a class="navbar-brand" href="index.html">Morgan Bailey</a>
+            <!--<a class="navbar-brand" href="index.html">Morgan Bailey</a>-->
 
             <!--Navivation button type -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -45,6 +52,12 @@
                     <a class="nav-item nav-link" href="index.html">About</a>
                     <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
                     <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    <a class="nav-item nav-link" href="https://www.linkedin.com/in/morganabailey/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="nav-item nav-link" href="https://github.com/morgan-b" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
                 </div>
 
             </div>
@@ -60,60 +73,65 @@
             <div class="col-md-12">
                 <article class="block">
 
-                    <!--  Header for Portfolio  -->
-                    <div class="card-header">Portfolio</div>
-
-                    <!-- Row with two images -->
-                    <div class="row">
-
-                        <!-- first image in row -->
-                        <div class="col-sm-6 col-md-12 col-lg-6">
-                            <img class="img-fluid portfimg" src="./assets/tuna.jpg"
-                                alt="a small white dog wears a hat and multicolored necklace">
-                        </div>
-
-                        <!-- second image in row -->
-                        <div class="col-sm-6 col-md-12 col-lg-6">
-                            <img class="img-fluid portfimg" src="./assets/winnie.JPG"
-                                alt="a small white dog looks to her right and squints her eyes">
-                        </div>
-                    </div>
-                    <!-- end row -->
 
 
-                    <!-- Row with two images -->
-                    <div class="row">
-
-                        <!-- first image in row -->
-                        <div class="col-sm-6 col-md-12 col-lg-6">
-                            <img class="img-fluid portfimg" src="./assets/winnie_hug.jpg"
-                                alt="a small white dog hugs a toy">
-                        </div>
-
-                        <!-- second image in row -->
-                        <div class="col-sm-6 col-md-12 col-lg-6">
-                            <img class="img-fluid portfimg" src="./assets/tuna_2.jpg"
-                                alt="a small white dog stands on a wooden floor looking at the camera">
+                    <!-- first image in row -->
+                    <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <img class="cardImg" src="./assets/foodist.png" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">THE FOODIST</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- end row -->
 
-                    <!-- Row with two images -->
-                    <div class="row">
-
-                        <!-- first image in row -->
-                        <div class="col-sm-6 col-md-12 col-lg-6">
-                            <img class="img-fluid portfimg" src="./assets/winnie_smile.jpg"
-                                alt="a small white dog lays outside in a field wearing a pink harness">
-                        </div>
-
-                        <!-- second image in row -->
-                        <div class="col-sm-6 col-md-12 col-lg-6">
-                            <img class="img-fluid portfimg" src="./assets/tuna_winnie.jpeg"
-                                alt="two small white dogs lay on a bed next to each other">
+                    <!-- second image in row -->
+                    <div class="card mb-3">
+                        <div class="row">
+                           
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">QuickFrame</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-6 ">
+                                <img class="cardImg card-img-top" src="./assets/VideoIntel.png" alt="...">
+                            </div>
                         </div>
                     </div>
-                    <!-- end row -->
+
+                    <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <img class="cardImg card-img-top" src="./assets/calendar.png" alt="...">
+                            </div>
+                           
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">QuickFrame</h5>
+                                    <p class="card-text ">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+
 
                 </article>
             </div>
