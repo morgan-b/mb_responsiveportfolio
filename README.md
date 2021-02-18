@@ -12,23 +12,21 @@ Media queries were limited by using Bootstrap elements throughout the website. T
 
 ## About Page
 
-![About Page Screenshot Large](/assets/about.png)
+![About Page Screenshot](/assets/homepage.png)
 
-![About Page Screenshot Small](/assets/Aboutpage_small.png)
+
 
 ## Portoflio Page
 
-![Portoflio Page Screenshot Large](/assets/portfolio.png)
+![Portoflio Page Screenshot](/assets/portfolio.png)
 
-![Portoflio Page Screenshot Small](/assets/portfolio_small.png)
 
 
 
 ## Contact Page
 
-![Contact Page Screenshot Large](/assets/contact.png)
+![Contact Page Screenshot Large](/assets/contact_me.png)
 
-![Contact Page Screenshot SMall](/assets/contact_small.png)
 
 
 
