@@ -37,10 +37,10 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
 
-                <!--Navivation bar title -->
 
                 <!--Navivation bar title -->
-                 <!--<a class="navbar-brand" href="index.html">Morgan Bailey</a>-->
+                <a class="navbar-brand" href="index.html">
+                    MORGAN BAILEY</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -50,14 +50,17 @@
 
                     <!--Navivation bar items and links -->
 
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="index.html">About</a>
+                    <div class="navbar-nav ml-auto">
+
+                        <!--- <img class="nav-item nav-link logo" href="index.html" src="/assets/M a b.png"></img>-->
+
                         <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
                         <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        <a class="nav-item nav-link" href="/assets/Morgan_Bailey-Resume.pdf" download>Resumé</a>
                         <a class="nav-item nav-link" href="https://www.linkedin.com/in/morganabailey/" target="_blank">
-                            <i class="fab fa-linkedin-in" ></i>
+                            <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a class="nav-item nav-link"  href="https://github.com/morgan-b" target="_blank">
+                        <a class="nav-item nav-link" href="https://github.com/morgan-b" target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
                     </div>
@@ -72,31 +75,38 @@
 
     </div>
     <!-- Start of card that contains About Me section -->
+
+
+
     <div class="container-fluid aboutmeEl">
         <div class="row">
 
+            <!-- bio image-->
+            <div class="col-4">
+                <img class="card-img mx-auto bioImg" src="./assets/biopicsquare.png">
 
-            <div class="col-12 col-md-6 mecard">
-                <div class="row">
-                    <div class="col hello">
-                        <h1 id="homeHeader">MORGAN BAILEY</h1>
+            </div>
 
-                        <h3 id="homeSubHeader">product manager, performance marketer &</h3>
-                        <h3 id="homeSubHeader">web developer</h3>
-                        <!--  <button onclick="location.href = 'portfolio.html';" type="button"
-                            class="btn btn-outline-secondary portfolioButton homeButton">See My Work</button>
-                        <button onclick="location.href = 'contact.html';" type="button"
-                            class="btn btn-outline-secondary contactButton homeButton">Contact Me</button> -->
+            <div class="col-8 bioCard">
+                <!-- bio card content -->
 
-                    </div>
+                <div class="card col-12 bioBody">
+                    <div class="card-title" id="homeHeader">HI, I'M MORGAN</div>
+                    <p class="card-text" id="homeSubHeader">product manager, performance marketer </p>
+                    <p class="card-text" id="homeSubHeader"> & web developer</p>
+                    <p class="card-text">my background is in developing tech-driven solutions for performance marketers.
+                    </p>
+                    <button onclick="location.href = 'portfolio.html';" type="button"
+                        class="btn btn-outline-secondary homeButton">SEE MY WORK</button>
+
                 </div>
 
             </div>
-            <div class="container-fluid col-12 col-md-6 bioPic">
-
-            </div>
         </div>
+
     </div>
+
+
 
 
 
@@ -110,11 +120,10 @@
     <!-- End of main content -->
 
     <!-- Start of footer -->
-    <footer class="footer  mt-4">
+    <footer class="footer mt-4">
 
         <div class="container">
 
-            <!-- text in the footer -->
             <span class="text-muted text-muted-footer text-center">&copy; Copyright Morgan Bailey</span>
 
         </div>

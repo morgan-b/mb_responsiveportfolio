@@ -3,117 +3,84 @@
   /* Sets the position of the html to be relative so the footer can be sticky based on this */
 
   html {
-    
       /* Positioning */
       position: relative;
       /* Box-model */
       min-height: 100%;
-      
       font-family: 'Varela', sans-serif;
-      color: #4F5964;
-     
-    }
+      color: #1a1713;
+      background-color: #f5f3eb;
 
+  }
 
   body {
-    font-family: 'Varela', sans-serif;
-    color: #4F5964;
-    background-color: #e9d8c6
-  }
+      font-family: 'Varela', sans-serif;
+      color: #1a1713;
+      background-color:#f5f3eb
 
-/*.homepageBody{
-    background-image: url("./assets/homepage_drip.png");
-    height: 100vh;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }*/
-  #homeHeader {
- 
-   font-size: 58px;
-
-   
-}
-  #homeSubHeader {
- 
-      font-size: 24px;
-     
   }
-
-  .hello {
-      margin-left: 4%;
-  }
-  .bioPic {
-      background-image: url("./assets/bio_pic.png");
-      height: 80vh;
-   
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size:cover;
-  }
-
-  .mecard {
-      padding-left: 3%;
-      margin-top: 6%;
-  }
-
-  .homeButton {
-      margin-top: 3%
-  }
-
-  /* Styles the navigation bar on all html documents for background color, margin, and full screen width */
 
   nav {
       background-color: transparent;
       width: 100%;
       font-family: 'Varela', sans-serif;
-      color: #4F5964;
-  
-    }
-  
-
-
- 
-
-  /* Styles all buttons for margin */
-
-  button {
-      margin-left: 15px;
-      margin-bottom: 10px;
   }
 
-  /* Styles all white blocks of content for margin and background color */
+  #homeHeader {
+      font-size: 58px;
+      margin-bottom: 5%;
+  }
+
+  #homeSubHeader {
+      font-size: 28px;
+  }
+
+  .aboutmeEl {
+      padding-bottom: 10%;
+      padding-top: 10%;
+  }
+
+  .aboutmeTwo {
+      background-color: transparent;
+      border: none;
+  }
+
+  .homeCardTwo {
+      background-color: transparent;
+      border: none;
+  }
+
+  .bioBody {
+      background-color: transparent;
+      border: none;
+      padding-right: 1%;
+  }
+
+  .bioCard {
+      background-color: transparent;
+      border: none;
+      border-left: 3px solid;
+  }
 
   .block {
       margin: 20px;
   }
 
-  /* Styles the header for all blocks of content*/
-
-  .card-header {
-      background-color: #fdf8f5;
-  }
-
   /* Styles the footer for all pages for background color, absolute position to make it sticky to the bottom, and full screen width*/
 
   .footer {
-      background-color: #fdf8f5;
+      background-color: #1a1713;
+      color: white;
       position: absolute;
       left: 0;
       bottom: 0;
       width: 100%;
+      text-align: center;
   }
-
-  /* END STYLES FOR ALL PAGES*/
 
   /* Styles the image for index.html */
 
-  .cardImg {
-      height:100%;
-      width:100%;
-      
-
-
+  .bioImg {
     
   }
 
@@ -133,10 +100,6 @@
 
   /* Styles the footer across pages to have centered text */
 
-  .footer {
-      text-align: center;
-  }
-
   .myInfo {
       margin-top: 25%;
       margin-right: 10%;
@@ -144,9 +107,57 @@
 
   .icons {
       margin-left: 2%;
-   
   }
 
   .fa-github {
-    margin-left: 1%;
+      margin-left: 1%;
+  }
+
+  .portfolioCard {
+      background-color: transparent;
+      text-align: center;
+      border: none
+  }
+
+  hr {
+      width: 100%;
+      height: 1px;
+      margin-top: 5%;
+      margin-bottom: 5%
+  }
+
+  .card-title {
+      font-weight: 600;
+  }
+
+  .btn-outline-secondary {
+      background-color: transparent;
+      border-color: #1a1713;
+      border-width: 1px;
+      color: #1a1713;
+      border-radius: 0%;
+  }
+
+
+
+  .homeButton {
+      width: 70%;
+      margin-top: 5%;
+      margin-bottom: 3%;
+  }
+
+  .contactCard {
+      background-color:transparent;
+      border: none;
+      padding-left:5%;
+      border-left: 3px solid;
+  }
+
+  @media screen and (max-width:450px) {
+      #homeHeader {
+          font-size: 25px;
+      }
+      #homeSubHeader {
+          font-size: 16px;
+      }
   }
