@@ -10,15 +10,17 @@
       font-family: 'Varela', sans-serif;
       color: #1a1713;
       background-color: #f5f3eb;
-
   }
+
+  /* styling for fonts for all body content */
 
   body {
       font-family: 'Varela', sans-serif;
       color: #1a1713;
-      background-color:#f5f3eb
-
+      background-color: #f5f3eb
   }
+
+  /* styling for all navbar */
 
   nav {
       background-color: transparent;
@@ -26,29 +28,41 @@
       font-family: 'Varela', sans-serif;
   }
 
+  /* Homepage header styling */
+
   #homeHeader {
       font-size: 58px;
       margin-bottom: 5%;
   }
 
+  /* Homepage subheader styling */
+
   #homeSubHeader {
       font-size: 28px;
   }
+
+  /* Homepage header styling */
 
   .aboutmeEl {
       padding-bottom: 10%;
       padding-top: 10%;
   }
 
+  /* Homepage styling */
+
   .aboutmeTwo {
       background-color: transparent;
       border: none;
   }
 
+  /* Homepage styling */
+
   .homeCardTwo {
       background-color: transparent;
       border: none;
   }
+
+  /* Homepage styling */
 
   .bioBody {
       background-color: transparent;
@@ -56,11 +70,15 @@
       padding-right: 1%;
   }
 
+  /* Homepage styling */
+
   .bioCard {
       background-color: transparent;
       border: none;
       border-left: 3px solid;
   }
+
+  /* Homepage styling */
 
   .block {
       margin: 20px;
@@ -78,12 +96,6 @@
       text-align: center;
   }
 
-  /* Styles the image for index.html */
-
-  .bioImg {
-    
-  }
-
   /* Styles the portfolio images for portfolio.html */
 
   .portfimg {
@@ -98,12 +110,12 @@
       margin: 3% auto;
   }
 
-  /* Styles the footer across pages to have centered text */
-
   .myInfo {
       margin-top: 25%;
       margin-right: 10%;
   }
+
+  /* github and linkedin navbar styling */
 
   .icons {
       margin-left: 2%;
@@ -113,11 +125,15 @@
       margin-left: 1%;
   }
 
+  /* github and linkedin navbar styling */
+
   .portfolioCard {
       background-color: transparent;
       text-align: center;
       border: none
   }
+
+  /* styling to add line for breaks */
 
   hr {
       width: 100%;
@@ -126,9 +142,13 @@
       margin-bottom: 5%
   }
 
+  /* Bold Card title  */
+
   .card-title {
       font-weight: 600;
   }
+
+  /* Homepage header styling */
 
   .btn-outline-secondary {
       background-color: transparent;
@@ -138,7 +158,7 @@
       border-radius: 0%;
   }
 
-
+  /* Homepage button styling */
 
   .homeButton {
       width: 70%;
@@ -146,12 +166,16 @@
       margin-bottom: 3%;
   }
 
+  /* Contact page styling */
+
   .contactCard {
-      background-color:transparent;
+      background-color: transparent;
       border: none;
-      padding-left:5%;
+      padding-left: 5%;
       border-left: 3px solid;
   }
+
+  /* Homepage font styling for small screens*/
 
   @media screen and (max-width:450px) {
       #homeHeader {
