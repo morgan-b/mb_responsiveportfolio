@@ -9,7 +9,7 @@
       min-height: 100%;
       font-family: 'Varela', sans-serif;
       color: #1a1713;
-      background-color: #f5f3eb;
+      background-color: white;
   }
 
   /* styling for fonts for all body content */
@@ -17,7 +17,7 @@
   body {
       font-family: 'Varela', sans-serif;
       color: #1a1713;
-      background-color: #f5f3eb
+      background-color: white
   }
 
   /* styling for all navbar */
